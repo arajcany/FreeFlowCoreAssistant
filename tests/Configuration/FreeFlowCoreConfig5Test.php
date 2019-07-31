@@ -13,7 +13,7 @@ class FreeFlowCoreConfig5Test extends TestCase
     {
         parent::__construct($name, $data, $dataName);
 
-        include_once(__DIR__ . "\\..\\..\\config\\freeflowcore_constants.php");
+        include_once(__DIR__ . "/../bootstrap.php");
         $this->ffc = new FreeFlowCoreConfig5();
 
     }
